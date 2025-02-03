@@ -11,9 +11,9 @@
 # production
 /build
 
-/onboarding 
-/ChatbotTesting
-/ChatbotIntegration
+/onboarding/ 
+/ChatbotTesting/
+/ChatbotIntegration/
 
 
 # misc
