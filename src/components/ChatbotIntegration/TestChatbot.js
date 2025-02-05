@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const TestChatbot = () => {
   const openChatbotPage = () => {
-    window.open('https://www.tatamotors.com/', '_blank'); // Replace with actual client website URL
+    window.open('https://www.tatamotors.com/', '_blank'); 
   };
 
   return (
@@ -15,12 +15,14 @@ const TestChatbot = () => {
 
       {/* Test Chatbot Button */}
       <div className="text-center">
-        <button className="btn btn-primary" onClick={openChatbotPage}>
+        <button className="btn btn-primary w-50" onClick={openChatbotPage}>
           Test Chatbot
         </button>
       </div>
+      
     </div>
   );
 };
 
 export default TestChatbot;
+

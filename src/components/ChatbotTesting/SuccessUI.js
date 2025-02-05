@@ -1,7 +1,7 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.min.css'; // Ensure FontAwesome is imported
+import 'font-awesome/css/font-awesome.min.css'; 
 
 const SuccessUI = () => {
   return (
@@ -45,4 +45,4 @@ const SuccessUI = () => {
   );
 };
 
-export default SuccessUI; // Ensure this is a default export
+export default SuccessUI; 

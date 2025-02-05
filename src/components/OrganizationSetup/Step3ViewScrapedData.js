@@ -52,7 +52,7 @@ export default function Step3ViewScrapedData() {
           </ul>
 
           <button className="btn btn-secondary me-2" onClick={() => setSelectedPage(null)}>🔙 Back</button>
-          <button className="btn btn-primary">➡️ Proceed</button>
+        
         </div>
       ) : (
         // List of scraped webpages

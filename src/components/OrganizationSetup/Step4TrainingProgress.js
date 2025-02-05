@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Step4TrainingProgress() {
+  const navigate = useNavigate();
   
   const [progress, setProgress] = useState(0);
   const [statusMessage, setStatusMessage] = useState("Initializing training...");
@@ -48,7 +50,7 @@ export default function Step4TrainingProgress() {
         <button className="btn btn-secondary w-100 mt-2" disabled={progress < 100}>
           Wait for Training
         </button>
-        <button className="btn btn-primary w-100 mt-2">Continue to Next Step</button>
+        <button className="btn btn-primary w-100 mt-2" onClick={() => navigate("/integration")}>Continue to Next Step</button>
       </div>
 
 
